@@ -29,6 +29,12 @@
               <div class = "jumbotron text-center">
                 <h1> Steve Koo </h1>
                 <div class = "intro">Aspiring Developer, Amatuer Golfer, Outdoor Enthusiast</div>
+                  <div class = "links">
+                    <a href = "#about" class = "aboutme"> About me
+                    <a href = "#services" class = "service"> Services
+                    <a href = "#projects" class = "project"> Projects
+                    <a href = "#contact" class = "contacts"> Contact
+                  </div>
               </div>
 
                     <div class ="header">
@@ -55,7 +61,7 @@
                       </br>
                     <div class = "row">
 
-                      <div class = "services">Services</div>
+                      <div id = "services">Services</div>
 
                         <div class = "col-sm-4">
                           <div class ="thumbnail">
@@ -92,7 +98,7 @@
 
                       <div class = "project-container">
                        <div class = "row">
-                            <div class = "projects">Projects</div>
+                            <div id = "projects">Projects</div>
 
                               <div class = "col-sm-4">
                                 <a href = "musicplaylist.herokuapp.com" class ="thumbnail">
@@ -116,17 +122,32 @@
                                 <a href = "meal.html" class="thumbnail">
                                   <img src = "images/bingo.png">
                                   </a>
-                                  <h3 class = "seo"> SEO/SEM </h3>
-                                      <p> </p>
-                                      
+                                  <h3 class = "seo"> SEO/SEM </h3>    
                               </div>
+                            </div>
 
-                    </div>
+                      <div class = "row">
+
+                              <div class = "col-sm-4">
+                                <a href = "http://shkoo25.github.io/angular-form-validation/public/test.html" class ="thumbnail">
+                                  <img src = "images/validation.png">
+                                </a>
+                                <h3 class = "seo"> Form Validation </h3>   
+                              </div>
+                      </div>
+
+
+
+                    
                   </div>
 
                   <footer>
-                        <div class ="contact"> Contact
-                        </div>
+                        <div id ="contact"> Contact</div>
+                            <div class = "row2">
+                                <div class = "name"> Name </div>
+                                <div class = "phone"> Phone </div>
+                            </div>
+                        
                   </footer>
 
 
@@ -139,6 +160,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdn.firebase.com/js/client/2.3.0/firebase.js"></script>
+    <script src = "index.js"></script>
    
     
   </body>
