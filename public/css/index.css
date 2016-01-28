@@ -120,6 +120,7 @@ footer{
 	text-decoration:underline;
 	position:fixed;
 	text-align;right;
-
+	width:100%;
+	z-index:1;
 }
 
