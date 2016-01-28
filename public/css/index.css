@@ -116,6 +116,10 @@ footer{
 }
 .links{
 	text-align: right;
-	font-size:35px;
+	font-size:15px;
+	text-decoration:underline;
+	position:fixed;
+	text-align;right;
 
 }
+
