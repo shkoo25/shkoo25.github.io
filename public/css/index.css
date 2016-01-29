@@ -8,6 +8,7 @@ a{
 body{
 	padding-bottom:30px;
 	background-color:black;
+	margin:1%;
 }
 
 p{
@@ -114,13 +115,18 @@ footer{
 .row2{
 	display:inline-block;
 }
+
 .links{
 	text-align: right;
 	font-size:15px;
 	text-decoration:underline;
-	position:fixed;
 	text-align;right;
 	width:100%;
 	z-index:1;
+	margin-right:5%;
 }
+.project-container{
+	height:100%;
+}
+
 
