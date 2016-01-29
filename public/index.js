@@ -1,11 +1,6 @@
 
 $(document).on("ready", function(){
 
-  $('.project-container').slick({
-  infinite: true,
-  slidesToShow: 2,
-  slidesToScroll: 1
-  });
 
 
 
