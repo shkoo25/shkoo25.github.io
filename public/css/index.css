@@ -88,8 +88,8 @@ footer{
 #myself{
 	font-size:65px;
 	text-align: center;
-	margin-bottom:14%;
-	margin-top:15%;
+	margin-bottom:22%;
+	margin-top:9%;
 	color:white;
 }
 .quote{
@@ -115,6 +115,7 @@ footer{
 	text-align: center;
 	margin:0px;
 	padding:0px;
+	border-style:groove 2px white;
 }
 .name{
 	color:#808080;
