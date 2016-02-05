@@ -88,9 +88,15 @@ footer{
 #myself{
 	font-size:65px;
 	text-align: center;
-	margin-bottom:40%;
+	margin-bottom:14%;
 	margin-top:15%;
 	color:white;
+}
+.quote{
+	color:white;
+	margin-bottom:5%;
+	font-size:22px;
+	font-style:hagin;
 }
 
 
