@@ -157,7 +157,7 @@ footer{
 .project-container{
 	height:100%;
 }
-.biography-container, .project-container{
+.biography-container{
 	background-color:#717671;
 	position:absolute;
 	height:70%;
@@ -170,9 +170,16 @@ footer{
 
 }
 
-.me, #projects{
+.me {
 	color:#E8F1E8;
 	margin:0 0 2% 42%;
+	font-size:40px;
+}
+
+#projects{
+	text-align: center;
+	color:black;
+	background-color:#717671;
 	font-size:40px;
 }
 .row3{
