@@ -16,7 +16,7 @@ body{
 
 p{
 	font-family: "oswald",sans-serif;
-	font-size:24px;
+	font-size:18px;
 	color:#E8F1E8;
 	margin-left:9%;
 	width:80%;
@@ -31,19 +31,18 @@ h1, h3, h4, h5, h6{
 }
 h2{
 	text-align: center;
-	color:#808080;
-	z-index:1;
+	color:black;
+	font-family:serif;
 }
 footer{
-	border:solid 3px white;
 	margin-top:5%;
-	background-color:white;
+	background-color:#E6E5E1
 }
 i{
 	vertical-align: top;
 }
 .intro{
-	font-family: "oswald",sans-serif;
+	font-family: serif;
 	color:#808080;
 	font-size:16px;
 	font-weight:100;
@@ -78,10 +77,19 @@ i{
 	width:100%;
 }
 
-#skills{
-	margin:42% 0 5% 45%;
+#skills,{
+	text-align: center;
+	color:black;
+	font-family:serif;
+	font-size:38px;
+	color:#808080;
+
+}
+#contact{
 	font-size:38px;
 	color:black;
+	font-family:serif;
+	text-align: center
 }
 
 
@@ -91,12 +99,6 @@ i{
 	color:#000000;
 }
 
-#contact {
-	font-size:38px;
-	margin-top:%;
-	color:#808080;
-	margin-left:44%;
-}
 
 .quote{
 	color:white;
@@ -116,23 +118,25 @@ i{
 	background-color:yellow;
 }
 
-.contact{
-	text-align: center;
-	margin:0px;
-	padding:0px;
-}
 .name{
 	color:#808080;
 	display:inline-block;
 }
 .phone {
 	color:#808080;
-	text-align:right;
-	float:right;
 }
 .row2{
 	text-align: center;
-	
+}
+.map{
+	display: inline-block;
+}
+.info{
+	display: inline-block;
+	vertical-align: top;
+	width:25%;
+	text-align: left;
+	margin-left:17%;
 }
 
 .links{
@@ -166,16 +170,18 @@ i{
 	color:#E8F1E8;
 	margin:0 0 2% 44%;
 	font-size:38px;
+	font-family:serif;
 }
 
 #projects{
 	text-align: center;
 	color:white;
 	font-size:38px;
+	font-family:serif;
 }
 .row3{
 	height:100%;
-	margin:46% 0% 35% 0%;
+	margin:42% 0% 35% 0%;
 	background-color: #E6E5E1;
 }
 .title{
@@ -200,13 +206,9 @@ ul.img-list li {
   z-index: 2;
 }
 
-.quote{
-	color:#000000;
-	text-align: center;
-}
 
 .education,.sales,.coding{
-	margin-right:57%;
+	margin-right:24%;
 	font-size:20px;
 }
 
@@ -215,27 +217,47 @@ ul.img-list li {
 	font-size:20px;
 }
 
-.mail,.resume{
-	vertical-align: top;
+.email{
+	font-size:15px;
 }
+
+.resume{
+	font-size:15px;
+	margin-bottom:3%;
+	font-family:Roboto, arial, sans-serif;
+
+}
+
 .home{
-	text-align: left;
+	margin-left:16%;
+	font-family:Roboto, arial, sans-serif;
+
+}
+
+.contact-header{
+	font-family:Roboto, arial, sans-serif;
+	font-size:30px;
+	text-decoration: underline;
+	font-weight:bold;
+	margin-top:10%;
+	margin-bottom:6%;
+
 }
 .hovereffect {
-width:100%;
+width:91%;
 height:100%;
 margin-bottom:37%;
+margin-left:12%;
 float:left;
 background-color:#E6E5E1;
 overflow:hidden;
 position:relative;
 text-align:center;
 cursor:default;
-margin-left:25%;
 }
 
 .hovereffect .overlay {
-width:72%;
+width:85%;
 height:100%;
 position:absolute;
 overflow:hidden;
