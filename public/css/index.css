@@ -336,3 +336,40 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
+@media only screen and (max-width: 1200px){
+	.hovereffect{
+		height:100%;
+		margin-bottom:10%;
+		background-color:#E6E5E1;
+		overflow:hidden;
+		position:relative;
+		float: none;
+		text-align:center;
+		cursor:default;
+	}
+	.hovereffect img{
+		display: block;
+		text-align: center;
+		position: relative;
+		margin-left:30%;
+		transition: all .4s linear;
+		-webkit-transition:all .4s linear;
+	}
+	.hovereffect .overlay{
+		height: 100%;
+		margin-left: 0%;
+		position:absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		background-color: grey;
+		transition: all .4s, ease-in-out;
+	}
+	.education, .sales, .coding{
+		font-size: 20px;
+		margin-left: 7%;
+	}
+
+}
+
